@@ -1,0 +1,17 @@
+.scanner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.block_result_scanning{
+    background-color: #bba6a6;
+    height: 5vh;
+    text-align: center;
+    justify-content: center;
+}
+
+.scanner_p{
+    width: 50vw;
+}
