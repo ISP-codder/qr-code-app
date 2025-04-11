@@ -1,7 +1,7 @@
 import React from 'react';
 import QrCodeGenerator from "./qrCode/QrCodeGenerator.jsx";
 import QrCodeScanner from "./qrCode/QrCodeScanner.jsx";
-import {BrowserRouter, Route, Routes, Link} from "react-router";
+import {HashRouter, Route, Routes, Link} from "react-router-dom"; // Изменено: BrowserRouter -> HashRouter
 import './Layout.css'
 import AboutUs from "./AboutUs.jsx";
 import HistoryReading from "./history/HistoryReading.jsx";
@@ -9,7 +9,7 @@ import HistoryGenerate from "./history/HistoryGenerate.jsx";
 
 export default function Layout(){
     return (
-        <BrowserRouter>
+        <HashRouter> {/* Изменено: BrowserRouter -> HashRouter */}
             <div className='navbar'>
                 <div className="navbar__links">
                     <Link to='/generateqr'>Сгенерировать Qr-code </Link>
@@ -26,6 +26,7 @@ export default function Layout(){
                 <Route path='h_reading' element={<HistoryReading/>}/>
                 <Route path='h_generate' element={<HistoryGenerate/>}/>
             </Routes>
-        </BrowserRouter>
-    );
+        </HashRouter>
+);
 };
+
