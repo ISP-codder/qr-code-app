@@ -15,7 +15,7 @@ export default function  QrCodeScanner() {
     }
 
     const stylesSettings ={
-        container: { width: 350, transform: 'scale(-1,1)' }
+        container: { width: 350 }
     }
 
     const settings= {
