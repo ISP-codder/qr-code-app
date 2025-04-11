@@ -1,15 +1,16 @@
 {
   "name": "qr_project",
-  "homepage": "https://isp-codder.github.io/qr-code-app/",
   "version": "0.0.0",
+  "private": "true",
+  "homepage": "https://ISP-codder.github.io/qr-code-app",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy":"gh-pages -d dist"
+    "predeploy": "gh-pages -d dist",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
     "@yudiel/react-qr-scanner": "^2.2.1",
@@ -17,7 +18,8 @@
     "qrcode.react": "^4.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-router": "^7.5.0"
+    "react-router": "^7.5.0",
+    "react-router-dom": "^7.5.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
