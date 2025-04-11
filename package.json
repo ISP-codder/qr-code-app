@@ -2,7 +2,7 @@
   "name": "qr_project",
   "version": "0.0.0",
   "private": "true",
-  "homepage": "https://ISP-codder.github.io/qr-code-app",
+  "homepage": "https://ISP-codder.github.io/qr-code-app/",
   "type": "module",
   "scripts": {
     "dev": "vite",
