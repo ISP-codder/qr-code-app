@@ -15,7 +15,7 @@ export default function  QrCodeScanner() {
     }
 
     const stylesSettings ={
-        container: { width: 350 }
+        container: {width: 350}
     }
 
     const settings= {
@@ -29,7 +29,7 @@ export default function  QrCodeScanner() {
         </div>
         <div className='scanner_p'>
             <p className='block_result_scanning'>Отсканированный QR-code:
-                {scanned}</p>
+                <strong> {scanned}</strong></p>
 
         </div>
     </div>

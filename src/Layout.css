@@ -1,7 +1,8 @@
 .navbar__links a{
     color: black;
     margin: 10px;
-    background-color: #0abbbb;
-    border-radius: 20px;
+    background-color: #b4acac;
+    width: 100px;
     text-decoration: none;
+    display: flex;
 }

@@ -6,12 +6,14 @@
 }
 
 .block_result_scanning{
-    background-color: #bba6a6;
-    height: 5vh;
+    height: 8vh;
     text-align: center;
     justify-content: center;
 }
 
 .scanner_p{
-    width: 50vw;
+    width: 140px;
+}
+.scanner_p p{
+    /*font-size: 1rem;*/
 }
